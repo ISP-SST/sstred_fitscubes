@@ -1,3 +1,11 @@
+// This program transposes an SSTRED fitscube, a FITS file with dimensions
+// (x, y, tuning, Stokes, repeat), into another file with order (tuning,
+// repeat, Stokes, x, y). This is to facilitate viewing and analysis of the 
+// data by use of the crispex data browser.
+
+// The program was developed by Mats Löfdahl in October/November 2026
+// with the help of Google's Gemini AI.
+
 #include <string>
 #include <vector>
 #include <iostream>
